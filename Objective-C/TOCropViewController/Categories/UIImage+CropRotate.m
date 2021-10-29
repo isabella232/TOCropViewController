@@ -81,7 +81,6 @@
 
 - (UIImage *)croppedImageWithFrame:(CGRect)frame angle:(NSInteger)angle circularClip:(BOOL)circular
 {
-    NSLog(@"testing-croppedImageWithFrame");
     if (self.images) {
         NSArray<TOImageFrame *> * frames = [self frames];
         NSMutableArray<TOImageFrame*> * croppedFrames = [NSMutableArray arrayWithCapacity:frames.count];
